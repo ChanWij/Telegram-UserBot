@@ -97,7 +97,7 @@ async def type_afk_is_not_true(notafk):
     global AFKREASON
     if ISAFK:
         ISAFK = False
-        await notafk.respond("I'm no longer AFK.")
+        await notafk.respond("Aku kembali bro.")
         afk_info = await notafk.respond(
             "`You recieved "
             + str(COUNT_MSG)
